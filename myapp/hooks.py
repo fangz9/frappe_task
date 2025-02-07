@@ -245,3 +245,13 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+api = {
+    "methods": [
+        "myapp.api.task.get_tasks",
+        "myapp.api.task.create_task",
+        "myapp.api.task.get_task",
+        "myapp.api.task.update_task",
+        "myapp.api.task.delete_task"
+    ]
+}
+
